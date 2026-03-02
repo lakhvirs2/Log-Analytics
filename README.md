@@ -36,7 +36,7 @@ implemented with **Apache Spark / PySpark MLlib** on a 1.7 GB, ~3.45 million row
 
 ## 2. Dataset
 
-**File**: `HDFS_ML_Dataset.csv` (place in `/home/Lakhveer/`)
+**File**: `HDFS_ML_Dataset.csv` (place in `/home/Lakhvir/`)
 
 | Column range | Description |
 |---|---|
@@ -146,7 +146,7 @@ python -c "import pyspark; print(pyspark.__version__)"
 ### Option A – Full pipeline via script
 
 ```bash
-cd /home/Lakhveer
+cd /home/Lakhvir
 
 # Run all 4 stages sequentially
 python project/scripts/run_pipeline.py --stage all
@@ -190,7 +190,7 @@ Run in **sequential order** (each stage depends on the previous):
 ### Launch Jupyter
 
 ```bash
-cd /home/Lakhveer/project
+cd /home/Lakhvir/project
 jupyter notebook
 ```
 
