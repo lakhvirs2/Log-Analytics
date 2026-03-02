@@ -1,0 +1,30 @@
+event_id,event_code,description,category
+1,E1,BLOCK: Received block,Data transfer
+2,E2,BLOCK: Served block,Data transfer
+3,E3,BLOCK: Received request,Replication
+4,E4,BLOCK: Got exception,Error
+5,E5,BLOCK: Wrote block,Data transfer
+6,E6,BLOCK: Exception reading,Error
+7,E7,BLOCK: Exception writing,Error
+8,E8,BLOCK: IOException,Error
+9,E9,BLOCK: Transmitted block to,Data transfer
+10,E10,BLOCK: NameNode heartbeat,Health check
+11,E11,BLOCK: DataXceiver received,Data transfer
+12,E12,BLOCK: Received query,Query
+13,E13,BLOCK: Found block meta,Metadata
+14,E14,BLOCK: Skipping block,Admin
+15,E15,BLOCK: Processing pipeline,Replication
+16,E16,BLOCK: Received block replaced,Replication
+17,E17,BLOCK: Under replicated,Fault
+18,E18,BLOCK: Deleted expired block,Admin
+19,E19,BLOCK: Added pipeline,Replication
+20,E20,BLOCK: Replaced bad datanode,Fault
+21,E21,BLOCK: PacketResponder ready,Data transfer
+22,E22,BLOCK: sendResponse timeout,Error
+23,E23,BLOCK: Write pipeline complete,Data transfer
+24,E24,BLOCK: DataNode registered,Admin
+25,E25,BLOCK: Allocated new block,Data transfer
+26,E26,BLOCK: Readahead pool created,Data transfer
+27,E27,BLOCK: DataBlockScanner verified,Health check
+28,E28,BLOCK: Slow read event,Performance
+29,E29,BLOCK: FsDatasetAsyncDisk,Admin

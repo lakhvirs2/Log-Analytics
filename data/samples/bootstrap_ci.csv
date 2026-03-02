@@ -1,0 +1,5 @@
+Model,mean_f1,ci_lower,ci_upper
+Logistic Regression,0.9649,0.9646,0.9653
+Random Forest,0.9968,0.9967,0.997
+GBT,0.9982,0.9981,0.9983
+Linear SVC,0.9594,0.9591,0.9598

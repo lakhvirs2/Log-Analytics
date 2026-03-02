@@ -1,0 +1,9 @@
+partitions,train_time_s,type,rows
+2,0.47,Strong Scaling,
+4,0.49,Strong Scaling,
+8,0.4,Strong Scaling,
+16,1.88,Strong Scaling,
+2,0.23,Weak Scaling,100000.0
+4,0.36,Weak Scaling,200000.0
+8,2.14,Weak Scaling,400000.0
+16,4.04,Weak Scaling,800000.0

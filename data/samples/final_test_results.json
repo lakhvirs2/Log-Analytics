@@ -1,0 +1,32 @@
+{
+  "test_results": {
+    "Logistic Regression": {
+      "AUC_ROC": 0.9928,
+      "F1": 0.9649,
+      "Accuracy": 0.9562,
+      "Precision": 0.9819,
+      "Recall": 0.9562
+    },
+    "Random Forest": {
+      "AUC_ROC": 0.9997,
+      "F1": 0.9968,
+      "Accuracy": 0.9969,
+      "Precision": 0.9969,
+      "Recall": 0.9969
+    },
+    "GBT": {
+      "AUC_ROC": 0.9996,
+      "F1": 0.9982,
+      "Accuracy": 0.9982,
+      "Precision": 0.9982,
+      "Recall": 0.9982
+    },
+    "Linear SVC": {
+      "AUC_ROC": 0.9918,
+      "F1": 0.9594,
+      "Accuracy": 0.9481,
+      "Precision": 0.9809,
+      "Recall": 0.9481
+    }
+  }
+}

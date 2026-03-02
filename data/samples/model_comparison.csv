@@ -1,0 +1,6 @@
+Model,val_auc_roc,val_f1,val_acc,train_time_s
+SK-LR (baseline),0.995,0.9826,0.9803,1.66
+LogisticRegression,0.9927,0.9649,0.9562,18.87
+RandomForest,0.9997,0.9969,0.9969,209.72
+GBT,0.9997,0.9983,0.9983,2658.86
+LinearSVC,0.9917,0.9594,0.9479,24.1
